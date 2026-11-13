@@ -1,0 +1,199 @@
+{
+  "cutoff": "2026-10-31",
+  "cohorts": [
+    {
+      "cohort": "2026-01",
+      "size": 25,
+      "periods": [
+        {
+          "month_offset": 0,
+          "active_customers": 25,
+          "retention": 1.0
+        },
+        {
+          "month_offset": 1,
+          "active_customers": 6,
+          "retention": 0.24
+        },
+        {
+          "month_offset": 2,
+          "active_customers": 9,
+          "retention": 0.36
+        },
+        {
+          "month_offset": 3,
+          "active_customers": 9,
+          "retention": 0.36
+        },
+        {
+          "month_offset": 4,
+          "active_customers": 5,
+          "retention": 0.2
+        },
+        {
+          "month_offset": 5,
+          "active_customers": 6,
+          "retention": 0.24
+        },
+        {
+          "month_offset": 6,
+          "active_customers": 5,
+          "retention": 0.2
+        },
+        {
+          "month_offset": 7,
+          "active_customers": 14,
+          "retention": 0.56
+        },
+        {
+          "month_offset": 8,
+          "active_customers": 8,
+          "retention": 0.32
+        },
+        {
+          "month_offset": 9,
+          "active_customers": 10,
+          "retention": 0.4
+        }
+      ]
+    },
+    {
+      "cohort": "2026-02",
+      "size": 25,
+      "periods": [
+        {
+          "month_offset": 0,
+          "active_customers": 25,
+          "retention": 1.0
+        },
+        {
+          "month_offset": 1,
+          "active_customers": 10,
+          "retention": 0.4
+        },
+        {
+          "month_offset": 2,
+          "active_customers": 14,
+          "retention": 0.56
+        },
+        {
+          "month_offset": 3,
+          "active_customers": 8,
+          "retention": 0.32
+        },
+        {
+          "month_offset": 4,
+          "active_customers": 8,
+          "retention": 0.32
+        },
+        {
+          "month_offset": 5,
+          "active_customers": 9,
+          "retention": 0.36
+        },
+        {
+          "month_offset": 6,
+          "active_customers": 8,
+          "retention": 0.32
+        },
+        {
+          "month_offset": 7,
+          "active_customers": 8,
+          "retention": 0.32
+        },
+        {
+          "month_offset": 8,
+          "active_customers": 7,
+          "retention": 0.28
+        }
+      ]
+    },
+    {
+      "cohort": "2026-03",
+      "size": 25,
+      "periods": [
+        {
+          "month_offset": 0,
+          "active_customers": 25,
+          "retention": 1.0
+        },
+        {
+          "month_offset": 1,
+          "active_customers": 14,
+          "retention": 0.56
+        },
+        {
+          "month_offset": 2,
+          "active_customers": 7,
+          "retention": 0.28
+        },
+        {
+          "month_offset": 3,
+          "active_customers": 9,
+          "retention": 0.36
+        },
+        {
+          "month_offset": 4,
+          "active_customers": 9,
+          "retention": 0.36
+        },
+        {
+          "month_offset": 5,
+          "active_customers": 11,
+          "retention": 0.44
+        },
+        {
+          "month_offset": 6,
+          "active_customers": 5,
+          "retention": 0.2
+        },
+        {
+          "month_offset": 7,
+          "active_customers": 8,
+          "retention": 0.32
+        }
+      ]
+    },
+    {
+      "cohort": "2026-04",
+      "size": 25,
+      "periods": [
+        {
+          "month_offset": 0,
+          "active_customers": 25,
+          "retention": 1.0
+        },
+        {
+          "month_offset": 1,
+          "active_customers": 14,
+          "retention": 0.56
+        },
+        {
+          "month_offset": 2,
+          "active_customers": 9,
+          "retention": 0.36
+        },
+        {
+          "month_offset": 3,
+          "active_customers": 5,
+          "retention": 0.2
+        },
+        {
+          "month_offset": 4,
+          "active_customers": 7,
+          "retention": 0.28
+        },
+        {
+          "month_offset": 5,
+          "active_customers": 6,
+          "retention": 0.24
+        },
+        {
+          "month_offset": 6,
+          "active_customers": 10,
+          "retention": 0.4
+        }
+      ]
+    }
+  ]
+}
