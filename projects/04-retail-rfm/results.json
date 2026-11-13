@@ -1,0 +1,2011 @@
+{
+  "as_of": "2026-10-31",
+  "segment_counts": {
+    "nurture": 95,
+    "recent": 15,
+    "at_risk_high_value": 84,
+    "champions": 6
+  },
+  "customers": [
+    {
+      "customer_id": "M001",
+      "recency_days": 90,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M002",
+      "recency_days": 14,
+      "rfm": [
+        3,
+        2,
+        3
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M003",
+      "recency_days": 225,
+      "rfm": [
+        1,
+        1,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M004",
+      "recency_days": 191,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M005",
+      "recency_days": 69,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M006",
+      "recency_days": 211,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M007",
+      "recency_days": 45,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M008",
+      "recency_days": 225,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M009",
+      "recency_days": 22,
+      "rfm": [
+        3,
+        2,
+        3
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M010",
+      "recency_days": 130,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M011",
+      "recency_days": 164,
+      "rfm": [
+        1,
+        2,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M012",
+      "recency_days": 91,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M013",
+      "recency_days": 221,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M014",
+      "recency_days": 25,
+      "rfm": [
+        3,
+        3,
+        3
+      ],
+      "segment": "champions"
+    },
+    {
+      "customer_id": "M015",
+      "recency_days": 245,
+      "rfm": [
+        1,
+        1,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M016",
+      "recency_days": 60,
+      "rfm": [
+        2,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M017",
+      "recency_days": 136,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M018",
+      "recency_days": 170,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M019",
+      "recency_days": 271,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M020",
+      "recency_days": 198,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M021",
+      "recency_days": 66,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M022",
+      "recency_days": 54,
+      "rfm": [
+        2,
+        2,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M023",
+      "recency_days": 264,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M024",
+      "recency_days": 245,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M025",
+      "recency_days": 169,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M026",
+      "recency_days": 226,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M027",
+      "recency_days": 43,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M028",
+      "recency_days": 43,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M029",
+      "recency_days": 82,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M030",
+      "recency_days": 210,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M031",
+      "recency_days": 285,
+      "rfm": [
+        1,
+        1,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M032",
+      "recency_days": 210,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M033",
+      "recency_days": 55,
+      "rfm": [
+        2,
+        1,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M034",
+      "recency_days": 225,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M035",
+      "recency_days": 152,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M036",
+      "recency_days": 85,
+      "rfm": [
+        2,
+        2,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M037",
+      "recency_days": 49,
+      "rfm": [
+        2,
+        1,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M038",
+      "recency_days": 12,
+      "rfm": [
+        3,
+        3,
+        3
+      ],
+      "segment": "champions"
+    },
+    {
+      "customer_id": "M039",
+      "recency_days": 58,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M040",
+      "recency_days": 38,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M041",
+      "recency_days": 203,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M042",
+      "recency_days": 293,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M043",
+      "recency_days": 272,
+      "rfm": [
+        1,
+        2,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M044",
+      "recency_days": 173,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M045",
+      "recency_days": 157,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M046",
+      "recency_days": 127,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M047",
+      "recency_days": 183,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M048",
+      "recency_days": 81,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M049",
+      "recency_days": 77,
+      "rfm": [
+        2,
+        1,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M050",
+      "recency_days": 161,
+      "rfm": [
+        1,
+        1,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M051",
+      "recency_days": 165,
+      "rfm": [
+        1,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M052",
+      "recency_days": 26,
+      "rfm": [
+        3,
+        2,
+        2
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M053",
+      "recency_days": 241,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M054",
+      "recency_days": 268,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M055",
+      "recency_days": 147,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M056",
+      "recency_days": 75,
+      "rfm": [
+        2,
+        2,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M057",
+      "recency_days": 196,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M058",
+      "recency_days": 74,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M059",
+      "recency_days": 72,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M060",
+      "recency_days": 56,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M061",
+      "recency_days": 169,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M062",
+      "recency_days": 228,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M063",
+      "recency_days": 44,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M064",
+      "recency_days": 52,
+      "rfm": [
+        2,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M065",
+      "recency_days": 56,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M066",
+      "recency_days": 108,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M067",
+      "recency_days": 66,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M068",
+      "recency_days": 8,
+      "rfm": [
+        3,
+        2,
+        3
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M069",
+      "recency_days": 52,
+      "rfm": [
+        2,
+        2,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M070",
+      "recency_days": 220,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M071",
+      "recency_days": 183,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M072",
+      "recency_days": 211,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M073",
+      "recency_days": 66,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M074",
+      "recency_days": 33,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M075",
+      "recency_days": 64,
+      "rfm": [
+        2,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M076",
+      "recency_days": 197,
+      "rfm": [
+        1,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M077",
+      "recency_days": 129,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M078",
+      "recency_days": 108,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M079",
+      "recency_days": 133,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M080",
+      "recency_days": 299,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M081",
+      "recency_days": 52,
+      "rfm": [
+        2,
+        1,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M082",
+      "recency_days": 280,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M083",
+      "recency_days": 16,
+      "rfm": [
+        3,
+        2,
+        3
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M084",
+      "recency_days": 243,
+      "rfm": [
+        1,
+        2,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M085",
+      "recency_days": 168,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M086",
+      "recency_days": 286,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M087",
+      "recency_days": 102,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M088",
+      "recency_days": 162,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M089",
+      "recency_days": 211,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M090",
+      "recency_days": 224,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M091",
+      "recency_days": 142,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M092",
+      "recency_days": 236,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M093",
+      "recency_days": 48,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M094",
+      "recency_days": 6,
+      "rfm": [
+        3,
+        3,
+        3
+      ],
+      "segment": "champions"
+    },
+    {
+      "customer_id": "M095",
+      "recency_days": 99,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M096",
+      "recency_days": 27,
+      "rfm": [
+        3,
+        1,
+        3
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M097",
+      "recency_days": 45,
+      "rfm": [
+        2,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M098",
+      "recency_days": 176,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M099",
+      "recency_days": 132,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M100",
+      "recency_days": 121,
+      "rfm": [
+        1,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M101",
+      "recency_days": 297,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M102",
+      "recency_days": 141,
+      "rfm": [
+        1,
+        2,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M103",
+      "recency_days": 188,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M104",
+      "recency_days": 247,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M105",
+      "recency_days": 104,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M106",
+      "recency_days": 99,
+      "rfm": [
+        1,
+        1,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M107",
+      "recency_days": 217,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M108",
+      "recency_days": 192,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M109",
+      "recency_days": 231,
+      "rfm": [
+        1,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M110",
+      "recency_days": 69,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M111",
+      "recency_days": 302,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M112",
+      "recency_days": 33,
+      "rfm": [
+        2,
+        2,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M113",
+      "recency_days": 65,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M114",
+      "recency_days": 23,
+      "rfm": [
+        3,
+        3,
+        1
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M115",
+      "recency_days": 270,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M116",
+      "recency_days": 19,
+      "rfm": [
+        3,
+        3,
+        1
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M117",
+      "recency_days": 101,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M118",
+      "recency_days": 129,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M119",
+      "recency_days": 220,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M120",
+      "recency_days": 234,
+      "rfm": [
+        1,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M121",
+      "recency_days": 297,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M122",
+      "recency_days": 110,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M123",
+      "recency_days": 8,
+      "rfm": [
+        3,
+        2,
+        2
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M124",
+      "recency_days": 266,
+      "rfm": [
+        1,
+        1,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M125",
+      "recency_days": 290,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M126",
+      "recency_days": 163,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M127",
+      "recency_days": 96,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M128",
+      "recency_days": 126,
+      "rfm": [
+        1,
+        1,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M129",
+      "recency_days": 256,
+      "rfm": [
+        1,
+        2,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M130",
+      "recency_days": 236,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M131",
+      "recency_days": 219,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M132",
+      "recency_days": 219,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M133",
+      "recency_days": 41,
+      "rfm": [
+        2,
+        2,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M134",
+      "recency_days": 57,
+      "rfm": [
+        2,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M135",
+      "recency_days": 33,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M136",
+      "recency_days": 138,
+      "rfm": [
+        1,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M137",
+      "recency_days": 172,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M138",
+      "recency_days": 8,
+      "rfm": [
+        3,
+        3,
+        2
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M139",
+      "recency_days": 99,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M140",
+      "recency_days": 293,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M141",
+      "recency_days": 35,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M142",
+      "recency_days": 50,
+      "rfm": [
+        2,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M143",
+      "recency_days": 157,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M144",
+      "recency_days": 161,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M145",
+      "recency_days": 6,
+      "rfm": [
+        3,
+        3,
+        3
+      ],
+      "segment": "champions"
+    },
+    {
+      "customer_id": "M146",
+      "recency_days": 145,
+      "rfm": [
+        1,
+        1,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M147",
+      "recency_days": 50,
+      "rfm": [
+        2,
+        1,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M148",
+      "recency_days": 126,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M149",
+      "recency_days": 49,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M150",
+      "recency_days": 17,
+      "rfm": [
+        3,
+        3,
+        2
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M151",
+      "recency_days": 137,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M152",
+      "recency_days": 6,
+      "rfm": [
+        3,
+        3,
+        3
+      ],
+      "segment": "champions"
+    },
+    {
+      "customer_id": "M153",
+      "recency_days": 172,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M154",
+      "recency_days": 285,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M155",
+      "recency_days": 52,
+      "rfm": [
+        2,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M156",
+      "recency_days": 219,
+      "rfm": [
+        1,
+        3,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M157",
+      "recency_days": 22,
+      "rfm": [
+        3,
+        2,
+        3
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M158",
+      "recency_days": 75,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M159",
+      "recency_days": 244,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M160",
+      "recency_days": 262,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M161",
+      "recency_days": 186,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M162",
+      "recency_days": 85,
+      "rfm": [
+        2,
+        1,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M163",
+      "recency_days": 298,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M164",
+      "recency_days": 201,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M165",
+      "recency_days": 165,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M166",
+      "recency_days": 193,
+      "rfm": [
+        1,
+        1,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M167",
+      "recency_days": 195,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M168",
+      "recency_days": 43,
+      "rfm": [
+        2,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M169",
+      "recency_days": 138,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M170",
+      "recency_days": 164,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M171",
+      "recency_days": 97,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M172",
+      "recency_days": 245,
+      "rfm": [
+        1,
+        1,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M173",
+      "recency_days": 263,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M174",
+      "recency_days": 272,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M175",
+      "recency_days": 254,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M176",
+      "recency_days": 25,
+      "rfm": [
+        3,
+        2,
+        2
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M177",
+      "recency_days": 168,
+      "rfm": [
+        1,
+        1,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M178",
+      "recency_days": 235,
+      "rfm": [
+        1,
+        2,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M179",
+      "recency_days": 66,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M180",
+      "recency_days": 295,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M181",
+      "recency_days": 294,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M182",
+      "recency_days": 279,
+      "rfm": [
+        1,
+        2,
+        1
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M183",
+      "recency_days": 207,
+      "rfm": [
+        1,
+        2,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M184",
+      "recency_days": 122,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M185",
+      "recency_days": 29,
+      "rfm": [
+        3,
+        1,
+        3
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M186",
+      "recency_days": 79,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M187",
+      "recency_days": 204,
+      "rfm": [
+        1,
+        1,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M188",
+      "recency_days": 294,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M189",
+      "recency_days": 16,
+      "rfm": [
+        3,
+        3,
+        2
+      ],
+      "segment": "recent"
+    },
+    {
+      "customer_id": "M190",
+      "recency_days": 7,
+      "rfm": [
+        3,
+        3,
+        3
+      ],
+      "segment": "champions"
+    },
+    {
+      "customer_id": "M191",
+      "recency_days": 87,
+      "rfm": [
+        2,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M192",
+      "recency_days": 276,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M193",
+      "recency_days": 234,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M194",
+      "recency_days": 88,
+      "rfm": [
+        2,
+        3,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M195",
+      "recency_days": 99,
+      "rfm": [
+        1,
+        1,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M196",
+      "recency_days": 80,
+      "rfm": [
+        2,
+        2,
+        3
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M197",
+      "recency_days": 220,
+      "rfm": [
+        1,
+        3,
+        3
+      ],
+      "segment": "at_risk_high_value"
+    },
+    {
+      "customer_id": "M198",
+      "recency_days": 134,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M199",
+      "recency_days": 116,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    },
+    {
+      "customer_id": "M200",
+      "recency_days": 230,
+      "rfm": [
+        1,
+        3,
+        2
+      ],
+      "segment": "nurture"
+    }
+  ]
+}
