@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "01-securities-reconciliation",
+    "title": "Securities Reconciliation Engine",
+    "question": "Which transaction breaks should operations investigate before settlement?"
+  },
+  {
+    "slug": "02-settlement-sla",
+    "title": "Settlement SLA and Bottleneck Analysis",
+    "question": "Where does a settlement workflow lose time?"
+  },
+  {
+    "slug": "03-automation-prioritization",
+    "title": "Automation Opportunity Scorecard",
+    "question": "Which workflow changes deserve a pilot, and which fail control gates?"
+  },
+  {
+    "slug": "04-retail-rfm",
+    "title": "Retail Customer Lifecycle Segmentation",
+    "question": "Which customers should a CRM team retain, reactivate, or develop?"
+  },
+  {
+    "slug": "05-retention-cohorts",
+    "title": "Monthly Purchase Retention Cohorts",
+    "question": "Do newly acquired customers return in later months?"
+  },
+  {
+    "slug": "06-campaign-experiment",
+    "title": "Campaign A/B Test Readout",
+    "question": "Does a campaign change conversion enough to justify a follow-up experiment?"
+  },
+  {
+    "slug": "07-crm-identity-quality",
+    "title": "CRM Identity Quality Audit",
+    "question": "Which member records can be linked exactly and which need manual review?"
+  },
+  {
+    "slug": "08-savings-scenarios",
+    "title": "Financial Education Savings Simulator",
+    "question": "How do contributions, compounding, fees, and inflation change a hypothetical savings path?"
+  },
+  {
+    "slug": "09-basketball-shot-profile",
+    "title": "Basketball Shot Profile Analytics",
+    "question": "Which shot zones combine efficiency and enough attempts to merit attention?"
+  },
+  {
+    "slug": "10-golf-round-review",
+    "title": "Golf Round Performance Review",
+    "question": "Which parts of a round deserve focused practice?"
+  }
+]
