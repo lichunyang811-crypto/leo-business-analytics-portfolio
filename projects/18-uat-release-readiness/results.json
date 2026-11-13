@@ -1,0 +1,71 @@
+{
+  "requirements": [
+    {
+      "requirement_id": "R01",
+      "priority": "critical",
+      "mapped": true,
+      "ready": true,
+      "open_tests": [],
+      "reason": "passed"
+    },
+    {
+      "requirement_id": "R02",
+      "priority": "critical",
+      "mapped": true,
+      "ready": false,
+      "open_tests": [
+        "T03"
+      ],
+      "reason": "tests_not_all_passed"
+    },
+    {
+      "requirement_id": "R03",
+      "priority": "normal",
+      "mapped": true,
+      "ready": false,
+      "open_tests": [
+        "T05"
+      ],
+      "reason": "tests_not_all_passed"
+    },
+    {
+      "requirement_id": "R04",
+      "priority": "normal",
+      "mapped": false,
+      "ready": false,
+      "open_tests": [],
+      "reason": "unmapped"
+    },
+    {
+      "requirement_id": "R05",
+      "priority": "normal",
+      "mapped": true,
+      "ready": true,
+      "open_tests": [],
+      "reason": "passed"
+    },
+    {
+      "requirement_id": "R06",
+      "priority": "critical",
+      "mapped": true,
+      "ready": false,
+      "open_tests": [
+        "T07"
+      ],
+      "reason": "tests_not_all_passed"
+    }
+  ],
+  "mapped_requirement_rate": 0.8333333333333334,
+  "passed_requirement_rate": 0.3333333333333333,
+  "critical_blockers": [
+    "R02",
+    "R06"
+  ],
+  "unique_test_status_counts": {
+    "pass": 4,
+    "fail": 1,
+    "blocked": 1,
+    "not_run": 1
+  },
+  "release_recommendation": "hold"
+}

@@ -1,0 +1,9 @@
+requirement_id,priority,test_id,status
+R01,critical,T01,pass
+R01,critical,T02,pass
+R02,critical,T03,fail
+R02,critical,T04,pass
+R03,normal,T05,blocked
+R04,normal,,not_run
+R05,normal,T06,pass
+R06,critical,T07,not_run
