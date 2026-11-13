@@ -1,0 +1,60 @@
+{
+  "channels": [
+    {
+      "channel": "paid_search",
+      "net_revenue_cents": 1330000,
+      "contribution_before_acquisition_cents": 680000,
+      "contribution_after_acquisition_cents": 330000,
+      "contribution_margin": 0.24812030075187969,
+      "gross_revenue_roas": 4.0,
+      "cac_cents": 4375.0,
+      "break_even_ad_spend_cents": 680000,
+      "review": "nonnegative_contribution"
+    },
+    {
+      "channel": "referrals",
+      "net_revenue_cents": 570000,
+      "contribution_before_acquisition_cents": 285000,
+      "contribution_after_acquisition_cents": 225000,
+      "contribution_margin": 0.39473684210526316,
+      "gross_revenue_roas": 10.0,
+      "cac_cents": 1000.0,
+      "break_even_ad_spend_cents": 285000,
+      "review": "nonnegative_contribution"
+    },
+    {
+      "channel": "organic",
+      "net_revenue_cents": 435000,
+      "contribution_before_acquisition_cents": 215000,
+      "contribution_after_acquisition_cents": 215000,
+      "contribution_margin": 0.4942528735632184,
+      "gross_revenue_roas": null,
+      "cac_cents": 0.0,
+      "break_even_ad_spend_cents": 215000,
+      "review": "nonnegative_contribution"
+    },
+    {
+      "channel": "pilot",
+      "net_revenue_cents": 0,
+      "contribution_before_acquisition_cents": 0,
+      "contribution_after_acquisition_cents": -50000,
+      "contribution_margin": null,
+      "gross_revenue_roas": 0.0,
+      "cac_cents": null,
+      "break_even_ad_spend_cents": 0,
+      "review": "negative_contribution"
+    },
+    {
+      "channel": "paid_social",
+      "net_revenue_cents": 1530000,
+      "contribution_before_acquisition_cents": 540000,
+      "contribution_after_acquisition_cents": -110000,
+      "contribution_margin": -0.0718954248366013,
+      "gross_revenue_roas": 2.769230769230769,
+      "cac_cents": 5416.666666666667,
+      "break_even_ad_spend_cents": 540000,
+      "review": "negative_contribution"
+    }
+  ],
+  "total_contribution_cents": 610000
+}

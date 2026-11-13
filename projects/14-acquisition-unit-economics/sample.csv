@@ -1,0 +1,6 @@
+channel,revenue_cents,refund_cents,cogs_cents,fulfillment_cents,ad_spend_cents,new_customers
+paid_social,1800000,270000,810000,180000,650000,120
+paid_search,1400000,70000,560000,90000,350000,80
+referrals,600000,30000,240000,45000,60000,60
+organic,450000,15000,180000,40000,0,45
+pilot,0,0,0,0,50000,0
