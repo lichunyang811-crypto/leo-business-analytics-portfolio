@@ -1,0 +1,34 @@
+{
+  "baseline_month": "2026-08",
+  "customer_count": 4,
+  "bridges": [
+    {
+      "month": "2026-09",
+      "opening_mrr_cents": 18000,
+      "closing_mrr_cents": 17000,
+      "movements_cents": {
+        "new": 5000,
+        "reactivation": 0,
+        "expansion": 2000,
+        "contraction": 0,
+        "churn": 8000
+      },
+      "net_revenue_retention": 0.6666666666666666,
+      "bridge_difference_cents": 0
+    },
+    {
+      "month": "2026-10",
+      "opening_mrr_cents": 17000,
+      "closing_mrr_cents": 31000,
+      "movements_cents": {
+        "new": 10000,
+        "reactivation": 7000,
+        "expansion": 0,
+        "contraction": 3000,
+        "churn": 0
+      },
+      "net_revenue_retention": 0.8235294117647058,
+      "bridge_difference_cents": 0
+    }
+  ]
+}
