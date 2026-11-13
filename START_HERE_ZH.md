@@ -38,4 +38,4 @@ python3 projects/01-securities-reconciliation/app.py
 
 GitHub 仓库： https://github.com/lichunyang811-crypto/leo-business-analytics-portfolio 。这 10 个项目集中存放在一个作品集仓库中；后续可把深入完善的项目拆成独立仓库。
 
-已准备 GitHub Actions 测试配置；它还没有在 GitHub 上运行。未默认选择开源许可证。
+GitHub Actions 已启用，自动验证 Python 3.10 和 3.13；最新运行状态见仓库 Actions 页面。测试包含跨平台浮点精度检查。未默认选择开源许可证。

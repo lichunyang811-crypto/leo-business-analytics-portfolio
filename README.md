@@ -45,7 +45,7 @@ Every folder includes a documented input schema, synthetic CSV fixture, executab
 
 ## Evidence and limitations
 
-Local validation used Python 3.13.6. The GitHub Actions workflow is prepared but has not run remotely. Bundled data is intentionally small enough to inspect; it is not a performance benchmark. Input validation is suitable for these prototypes, not a full production ingestion or security boundary. Do not load sensitive records into a public repository.
+Local validation used Python 3.13.6. GitHub Actions runs the suite on Python 3.10 and 3.13; see the repository Actions tab for the latest status. Floating-point comparisons allow only a tight tolerance for platform math-library rounding differences. Bundled data is intentionally small enough to inspect; it is not a performance benchmark. Input validation is suitable for these prototypes, not a full production ingestion or security boundary. Do not load sensitive records into a public repository.
 
 ## Development priorities
 
