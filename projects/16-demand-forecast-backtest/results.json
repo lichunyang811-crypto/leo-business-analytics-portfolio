@@ -1,0 +1,71 @@
+{
+  "training_days": 42,
+  "validation_days": 7,
+  "holdout_days": 7,
+  "validation_scores": [
+    {
+      "model": "last_value",
+      "mae": 9.857142857142858,
+      "wape": 0.20116618075801748
+    },
+    {
+      "model": "seasonal_7",
+      "mae": 1.2857142857142858,
+      "wape": 0.026239067055393587
+    },
+    {
+      "model": "moving_mean_7",
+      "mae": 9.530612244897958,
+      "wape": 0.19450229071220324
+    }
+  ],
+  "selected_model": "seasonal_7",
+  "holdout_score": {
+    "mae": 2.2857142857142856,
+    "wape": 0.045845272206303724
+  },
+  "holdout_predictions": [
+    {
+      "date": "2026-10-20",
+      "trained_through": "2026-10-19",
+      "actual": 43,
+      "forecast": 40.0
+    },
+    {
+      "date": "2026-10-21",
+      "trained_through": "2026-10-20",
+      "actual": 45,
+      "forecast": 42.0
+    },
+    {
+      "date": "2026-10-22",
+      "trained_through": "2026-10-21",
+      "actual": 45,
+      "forecast": 49.0
+    },
+    {
+      "date": "2026-10-23",
+      "trained_through": "2026-10-22",
+      "actual": 52,
+      "forecast": 49.0
+    },
+    {
+      "date": "2026-10-24",
+      "trained_through": "2026-10-23",
+      "actual": 62,
+      "forecast": 63.0
+    },
+    {
+      "date": "2026-10-25",
+      "trained_through": "2026-10-24",
+      "actual": 69,
+      "forecast": 67.0
+    },
+    {
+      "date": "2026-10-26",
+      "trained_through": "2026-10-25",
+      "actual": 33,
+      "forecast": 33.0
+    }
+  ]
+}
