@@ -1,6 +1,7 @@
 import csv
 import importlib.util
 import json
+import math
 from pathlib import Path
 import subprocess
 import sys
@@ -122,6 +123,33 @@ class BusinessRules(unittest.TestCase):
         self.assertEqual(result['relative_to_par'],0)
 
 class EndToEnd(unittest.TestCase):
+    def assert_json_equivalent(self, actual, expected):
+        # libm implementations can differ by a few ULPs across OS/CPU families.
+        self.assertIs(type(actual), type(expected))
+        if isinstance(expected, dict):
+            self.assertEqual(actual.keys(), expected.keys())
+            for key in expected:
+                self.assert_json_equivalent(actual[key], expected[key])
+        elif isinstance(expected, list):
+            self.assertEqual(len(actual), len(expected))
+            for left, right in zip(actual, expected):
+                self.assert_json_equivalent(left, right)
+        elif isinstance(expected, float):
+            self.assertTrue(math.isclose(actual, expected, rel_tol=1e-12, abs_tol=1e-15),
+                            f"{actual!r} differs from {expected!r}")
+        else:
+            self.assertEqual(actual, expected)
+
+    def test_result_comparison_allows_platform_roundoff(self):
+        self.assert_json_equivalent({"p": 0.002473843073820246},
+                                    {"p": 0.0024738430738202454})
+
+    def test_result_comparison_rejects_material_changes(self):
+        for actual, expected in [(0.081, 0.08), (True, 1), ([1], [1, 2]),
+                                 ({"a": 1}, {"b": 1}), (float("nan"), 0.0)]:
+            with self.subTest(actual=actual), self.assertRaises(AssertionError):
+                self.assert_json_equivalent(actual, expected)
+
     def test_all_projects_reproduce_committed_results(self):
         with tempfile.TemporaryDirectory() as temp:
             for path in sorted((ROOT/'projects').glob('*/app.py')):
@@ -129,7 +157,7 @@ class EndToEnd(unittest.TestCase):
                     output=Path(temp)/'result.json'
                     process=subprocess.run([sys.executable,str(path),'--output',str(output)],capture_output=True,text=True)
                     self.assertEqual(process.returncode,0,process.stderr)
-                    self.assertEqual(json.loads(output.read_text()),json.loads(path.with_name('results.json').read_text()))
+                    self.assert_json_equivalent(json.loads(output.read_text()),json.loads(path.with_name('results.json').read_text()))
 
     def test_all_clis_reject_header_only_input(self):
         with tempfile.TemporaryDirectory() as temp:
