@@ -1,0 +1,199 @@
+{
+  "shot_profiles": [
+    {
+      "player": "Player_1",
+      "zone": "midrange",
+      "attempts": 60,
+      "fg_pct": 0.43333333333333335,
+      "effective_fg_pct": 0.43333333333333335,
+      "points_per_attempt": 0.8666666666666667,
+      "fg_wilson_ci95": [
+        0.31572200394400635,
+        0.5589678534530513
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_1",
+      "zone": "rim",
+      "attempts": 71,
+      "fg_pct": 0.5915492957746479,
+      "effective_fg_pct": 0.5915492957746479,
+      "points_per_attempt": 1.1830985915492958,
+      "fg_wilson_ci95": [
+        0.4753857081544497,
+        0.6983144799762155
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_1",
+      "zone": "three",
+      "attempts": 69,
+      "fg_pct": 0.30434782608695654,
+      "effective_fg_pct": 0.45652173913043476,
+      "points_per_attempt": 0.9130434782608695,
+      "fg_wilson_ci95": [
+        0.2084947626304856,
+        0.42083792638238626
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_2",
+      "zone": "midrange",
+      "attempts": 66,
+      "fg_pct": 0.3787878787878788,
+      "effective_fg_pct": 0.3787878787878788,
+      "points_per_attempt": 0.7575757575757576,
+      "fg_wilson_ci95": [
+        0.271492715804161,
+        0.49941745807501703
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_2",
+      "zone": "rim",
+      "attempts": 63,
+      "fg_pct": 0.6349206349206349,
+      "effective_fg_pct": 0.6349206349206349,
+      "points_per_attempt": 1.2698412698412698,
+      "fg_wilson_ci95": [
+        0.5114848159101394,
+        0.7428478152656554
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_2",
+      "zone": "three",
+      "attempts": 71,
+      "fg_pct": 0.39436619718309857,
+      "effective_fg_pct": 0.5915492957746479,
+      "points_per_attempt": 1.1830985915492958,
+      "fg_wilson_ci95": [
+        0.28893226488668644,
+        0.5106444411163921
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_3",
+      "zone": "midrange",
+      "attempts": 69,
+      "fg_pct": 0.43478260869565216,
+      "effective_fg_pct": 0.43478260869565216,
+      "points_per_attempt": 0.8695652173913043,
+      "fg_wilson_ci95": [
+        0.32432616178765283,
+        0.5521180678833044
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_3",
+      "zone": "rim",
+      "attempts": 65,
+      "fg_pct": 0.6153846153846154,
+      "effective_fg_pct": 0.6153846153846154,
+      "points_per_attempt": 1.2307692307692308,
+      "fg_wilson_ci95": [
+        0.49383980131435057,
+        0.7240517061462548
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_3",
+      "zone": "three",
+      "attempts": 66,
+      "fg_pct": 0.3484848484848485,
+      "effective_fg_pct": 0.5227272727272727,
+      "points_per_attempt": 1.0454545454545454,
+      "fg_wilson_ci95": [
+        0.24475707338560404,
+        0.4688806439633685
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_4",
+      "zone": "midrange",
+      "attempts": 82,
+      "fg_pct": 0.35365853658536583,
+      "effective_fg_pct": 0.35365853658536583,
+      "points_per_attempt": 0.7073170731707317,
+      "fg_wilson_ci95": [
+        0.2588541267448773,
+        0.4615611497644142
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_4",
+      "zone": "rim",
+      "attempts": 61,
+      "fg_pct": 0.5245901639344263,
+      "effective_fg_pct": 0.5245901639344263,
+      "points_per_attempt": 1.0491803278688525,
+      "fg_wilson_ci95": [
+        0.4015694171531101,
+        0.6446971771320402
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_4",
+      "zone": "three",
+      "attempts": 57,
+      "fg_pct": 0.21052631578947367,
+      "effective_fg_pct": 0.3157894736842105,
+      "points_per_attempt": 0.631578947368421,
+      "fg_wilson_ci95": [
+        0.12474426566891902,
+        0.33286368678466527
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_5",
+      "zone": "midrange",
+      "attempts": 65,
+      "fg_pct": 0.49230769230769234,
+      "effective_fg_pct": 0.49230769230769234,
+      "points_per_attempt": 0.9846153846153847,
+      "fg_wilson_ci95": [
+        0.37463636042469284,
+        0.6108375390779336
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_5",
+      "zone": "rim",
+      "attempts": 64,
+      "fg_pct": 0.59375,
+      "effective_fg_pct": 0.59375,
+      "points_per_attempt": 1.1875,
+      "fg_wilson_ci95": [
+        0.471449865045497,
+        0.7054327556474111
+      ],
+      "small_sample": false
+    },
+    {
+      "player": "Player_5",
+      "zone": "three",
+      "attempts": 71,
+      "fg_pct": 0.4225352112676056,
+      "effective_fg_pct": 0.6338028169014085,
+      "points_per_attempt": 1.267605633802817,
+      "fg_wilson_ci95": [
+        0.3145283047701463,
+        0.5384946129654448
+      ],
+      "small_sample": false
+    }
+  ]
+}
