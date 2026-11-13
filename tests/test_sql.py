@@ -2,13 +2,14 @@ import csv
 import json
 from pathlib import Path
 import sqlite3
+from contextlib import closing
 import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
 class SqlParity(unittest.TestCase):
     def test_sql_matches_python_on_bundled_data(self):
         for slug, table in [('02-settlement-sla','observations'),('05-retention-cohorts','orders')]:
-            with self.subTest(project=slug), sqlite3.connect(':memory:') as connection:
+            with self.subTest(project=slug), closing(sqlite3.connect(':memory:')) as connection:
                 path=ROOT/'projects'/slug
                 with (path/'sample.csv').open() as stream:
                     reader=csv.reader(stream)
