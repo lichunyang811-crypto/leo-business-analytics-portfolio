@@ -1,0 +1,74 @@
+{
+  "batches": [
+    {
+      "batch_id": "B1",
+      "currency": "EUR",
+      "captured_cents": 30000,
+      "refund_cents": 0,
+      "fee_cents": 900,
+      "expected_payout_cents": 29100,
+      "actual_payout_cents": 29100,
+      "difference_cents": 0,
+      "status": "matched",
+      "reasons": []
+    },
+    {
+      "batch_id": "B1",
+      "currency": "USD",
+      "captured_cents": 100000,
+      "refund_cents": 10000,
+      "fee_cents": 2500,
+      "expected_payout_cents": 87500,
+      "actual_payout_cents": 87500,
+      "difference_cents": 0,
+      "status": "matched",
+      "reasons": []
+    },
+    {
+      "batch_id": "B2",
+      "currency": "USD",
+      "captured_cents": 50000,
+      "refund_cents": 0,
+      "fee_cents": 1500,
+      "expected_payout_cents": 48500,
+      "actual_payout_cents": 48000,
+      "difference_cents": -500,
+      "status": "review",
+      "reasons": [
+        "amount_difference"
+      ]
+    },
+    {
+      "batch_id": "B3",
+      "currency": "USD",
+      "captured_cents": 20000,
+      "refund_cents": 0,
+      "fee_cents": 500,
+      "expected_payout_cents": 19500,
+      "actual_payout_cents": 0,
+      "difference_cents": -19500,
+      "status": "review",
+      "reasons": [
+        "missing_payout",
+        "amount_difference"
+      ]
+    },
+    {
+      "batch_id": "B4",
+      "currency": "USD",
+      "captured_cents": 0,
+      "refund_cents": 1000,
+      "fee_cents": 0,
+      "expected_payout_cents": -1000,
+      "actual_payout_cents": 0,
+      "difference_cents": 1000,
+      "status": "review",
+      "reasons": [
+        "missing_payout",
+        "net_debit_requires_review",
+        "amount_difference"
+      ]
+    }
+  ],
+  "review_count": 3
+}

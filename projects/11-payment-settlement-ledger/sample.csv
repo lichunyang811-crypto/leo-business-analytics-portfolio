@@ -1,0 +1,14 @@
+event_id,batch_id,currency,event_type,amount_cents
+E1,B1,USD,capture,100000
+E2,B1,USD,refund,10000
+E3,B1,USD,fee,2500
+E4,B1,USD,payout,87500
+E5,B2,USD,capture,50000
+E6,B2,USD,fee,1500
+E7,B2,USD,payout,48000
+E8,B3,USD,capture,20000
+E9,B3,USD,fee,500
+E10,B1,EUR,capture,30000
+E11,B1,EUR,fee,900
+E12,B1,EUR,payout,29100
+E13,B4,USD,refund,1000
