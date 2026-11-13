@@ -1,0 +1,2 @@
+# Optional: only needed to regenerate committed PNG previews.
+matplotlib==3.11.2

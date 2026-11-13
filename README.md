@@ -1,6 +1,6 @@
 # Leo Li · Business Analytics Portfolio
 
-Ten runnable case studies connecting securities operations, retail CRM, financial education, basketball, and golf. Built with Python's standard library, with SQLite examples for operational KPIs and retention cohorts.
+Twenty runnable case studies connecting securities operations, retail CRM, financial education, basketball, and golf. Built with Python's standard library, with SQLite examples for operational KPIs, retention cohorts, revenue bridges, and campaign mix adjustment.
 
 These are independent portfolio prototypes built with synthetic data. They are not past employer systems, production deployments, or evidence of realized business impact. The code is intended to be inspected, tested, and extended.
 
@@ -27,25 +27,55 @@ Requires Python 3.10 or newer. No pip installation, network connection, credenti
 | [Financial Education Savings Simulator](projects/08-savings-scenarios/README.md) | How do contributions, compounding, fees, and inflation change a hypothetical savings path? |
 | [Basketball Shot Profile Analytics](projects/09-basketball-shot-profile/README.md) | Which shot zones combine efficiency and enough attempts to merit attention? |
 | [Golf Round Performance Review](projects/10-golf-round-review/README.md) | Which parts of a round deserve focused practice? |
+| [Payment Settlement Ledger](projects/11-payment-settlement-ledger/README.md) | Do processor payouts reconcile to captured sales, refunds, and fees? |
+| [Subscription Revenue Bridge](projects/12-subscription-revenue-bridge/README.md) | What explains the change in monthly recurring revenue? |
+| [Ordered Checkout Funnel](projects/13-ordered-checkout-funnel/README.md) | At which step do sessions stop progressing through checkout? |
+| [Acquisition Channel Contribution](projects/14-acquisition-unit-economics/README.md) | Does a high-revenue acquisition channel still contribute after refunds and variable costs? |
+| [Inventory Reorder Policy Simulator](projects/15-inventory-reorder-policy/README.md) | When does inventory position justify a replenishment review, and how does case packing change the quantity? |
+| [Demand Forecast Backtest](projects/16-demand-forecast-backtest/README.md) | Which simple demand baseline generalizes to a held-out week? |
+| [Service Queue Capacity Simulator](projects/17-service-queue-simulation/README.md) | How does parallel handling capacity change waiting time under the same observed workload? |
+| [UAT Requirements Traceability](projects/18-uat-release-readiness/README.md) | Which unmet requirements block a release recommendation? |
+| [Counterparty Exposure Concentration](projects/19-counterparty-concentration/README.md) | How concentrated are gross exposures after related entities are grouped? |
+| [Campaign Mix and Simpson Reversal](projects/20-campaign-mix-adjustment/README.md) | Does a campaign conclusion reverse when both variants use the same customer mix? |
+
+## Featured case study
+
+![Common-mix campaign comparison](projects/20-campaign-mix-adjustment/preview.png)
+
+The synthetic campaign looks worse in aggregate but better within each segment. [Inspect the mix-adjustment case](projects/20-campaign-mix-adjustment/README.md) to see why the denominator and customer mix change the conclusion.
+
+[Read the second-batch findings and interview prompts](BATCH_2_CASE_NOTES.md).
 
 ## Suggested review order
 
 Start with **Securities Reconciliation** to inspect exception handling and monetary precision. Follow with **Campaign A/B Test Readout** for statistical assumptions and guardrails, then **Retention Cohorts** for denominator discipline and SQL/Python parity. Basketball and golf add personal context and demonstrate transferring analytical methods to another domain.
 
-Every folder includes a documented input schema, synthetic CSV fixture, executable analysis, and reproducible JSON output. Two folders also include SQLite queries. The tests cover business boundaries, duplicate handling, sparse experiments, date boundaries, financial arithmetic, SQL parity, and CLI reproducibility.
+Every folder includes a documented input schema, synthetic CSV fixture, executable analysis, and reproducible JSON output. Four folders also include SQLite queries. The tests cover business boundaries, duplicate handling, sparse experiments, date boundaries, financial arithmetic, SQL parity, and CLI reproducibility.
 
 ## Repository layout
 
-- `projects/`: ten self-contained case studies.
+- `projects/`: twenty self-contained case studies.
 - `tests/`: business-rule and end-to-end tests.
 - `run_all.py`: regenerate all bundled results.
 - `catalog.json`: machine-readable project index.
 - `.github/workflows/ci.yml`: GitHub Actions checks for Python 3.10 and 3.13.
 - `START_HERE_ZH.md`: Chinese walkthrough and publication status.
 
+## Optional chart regeneration
+
+The four PNG previews are already committed. Analysis and tests remain dependency-free. Only regenerating charts requires Python 3.11+ and Matplotlib:
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-visuals.txt
+.venv/bin/python render_previews.py
+```
+
+The figures read committed `results.json` files. Run `python3 run_all.py` first if the sample data changed.
+
 ## Evidence and limitations
 
-Local validation used Python 3.13.6. GitHub Actions runs the suite on Python 3.10 and 3.13; see the repository Actions tab for the latest status. Floating-point comparisons allow only a tight tolerance for platform math-library rounding differences. Bundled data is intentionally small enough to inspect; it is not a performance benchmark. Input validation is suitable for these prototypes, not a full production ingestion or security boundary. Do not load sensitive records into a public repository.
+The expanded suite contains 54 test methods, including integration checks over all 20 projects. Local validation used Python 3.13.6. GitHub Actions runs the suite on Python 3.10 and 3.13; see the repository Actions tab for the latest status. Floating-point comparisons allow only a tight tolerance for platform math-library rounding differences. Bundled data is intentionally small enough to inspect; it is not a performance benchmark. Input validation is suitable for these prototypes, not a full production ingestion or security boundary. Do not load sensitive records into a public repository.
 
 ## Development priorities
 

@@ -48,5 +48,55 @@
     "slug": "10-golf-round-review",
     "title": "Golf Round Performance Review",
     "question": "Which parts of a round deserve focused practice?"
+  },
+  {
+    "slug": "11-payment-settlement-ledger",
+    "title": "Payment Settlement Ledger",
+    "question": "Do processor payouts reconcile to captured sales, refunds, and fees?"
+  },
+  {
+    "slug": "12-subscription-revenue-bridge",
+    "title": "Subscription Revenue Bridge",
+    "question": "What explains the change in monthly recurring revenue?"
+  },
+  {
+    "slug": "13-ordered-checkout-funnel",
+    "title": "Ordered Checkout Funnel",
+    "question": "At which step do sessions stop progressing through checkout?"
+  },
+  {
+    "slug": "14-acquisition-unit-economics",
+    "title": "Acquisition Channel Contribution",
+    "question": "Does a high-revenue acquisition channel still contribute after refunds and variable costs?"
+  },
+  {
+    "slug": "15-inventory-reorder-policy",
+    "title": "Inventory Reorder Policy Simulator",
+    "question": "When does inventory position justify a replenishment review, and how does case packing change the quantity?"
+  },
+  {
+    "slug": "16-demand-forecast-backtest",
+    "title": "Demand Forecast Backtest",
+    "question": "Which simple demand baseline generalizes to a held-out week?"
+  },
+  {
+    "slug": "17-service-queue-simulation",
+    "title": "Service Queue Capacity Simulator",
+    "question": "How does parallel handling capacity change waiting time under the same observed workload?"
+  },
+  {
+    "slug": "18-uat-release-readiness",
+    "title": "UAT Requirements Traceability",
+    "question": "Which unmet requirements block a release recommendation?"
+  },
+  {
+    "slug": "19-counterparty-concentration",
+    "title": "Counterparty Exposure Concentration",
+    "question": "How concentrated are gross exposures after related entities are grouped?"
+  },
+  {
+    "slug": "20-campaign-mix-adjustment",
+    "title": "Campaign Mix and Simpson Reversal",
+    "question": "Does a campaign conclusion reverse when both variants use the same customer mix?"
   }
 ]
