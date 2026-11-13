@@ -1,0 +1,15 @@
+{
+  "control_rate": 0.08,
+  "treatment_rate": 0.092,
+  "absolute_lift": 0.011999999999999997,
+  "relative_lift": 0.14999999999999997,
+  "difference_ci95": [
+    0.004230484843955831,
+    0.01976951515604416
+  ],
+  "two_sided_p_value": 0.0024738430738202454,
+  "normal_approximation_adequate": true,
+  "allocation_p_value": 1.0,
+  "sample_ratio_warning": false,
+  "decision": "positive_signal"
+}
