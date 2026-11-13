@@ -1,0 +1,55 @@
+{
+  "policy": "Continuous threshold review with a lead-plus-review coverage target",
+  "items": [
+    {
+      "sku": "JACKET",
+      "inventory_position": 48,
+      "reorder_point": 102,
+      "order_up_to_target": 193,
+      "reorder_trigger": true,
+      "suggested_units": 156,
+      "case_count": 13,
+      "position_after_order": 204
+    },
+    {
+      "sku": "TEE",
+      "inventory_position": 360,
+      "reorder_point": 113,
+      "order_up_to_target": 342,
+      "reorder_trigger": false,
+      "suggested_units": 0,
+      "case_count": 0,
+      "position_after_order": 360
+    },
+    {
+      "sku": "SHIRT",
+      "inventory_position": 80,
+      "reorder_point": 89,
+      "order_up_to_target": 130,
+      "reorder_trigger": true,
+      "suggested_units": 54,
+      "case_count": 9,
+      "position_after_order": 134
+    },
+    {
+      "sku": "CAP",
+      "inventory_position": 0,
+      "reorder_point": 0,
+      "order_up_to_target": 0,
+      "reorder_trigger": true,
+      "suggested_units": 0,
+      "case_count": 0,
+      "position_after_order": 0
+    },
+    {
+      "sku": "SOCKS",
+      "inventory_position": -10,
+      "reorder_point": 92,
+      "order_up_to_target": 231,
+      "reorder_trigger": true,
+      "suggested_units": 252,
+      "case_count": 21,
+      "position_after_order": 242
+    }
+  ]
+}
