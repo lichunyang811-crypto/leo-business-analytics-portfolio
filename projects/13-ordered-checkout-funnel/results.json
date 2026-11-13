@@ -1,0 +1,348 @@
+{
+  "window_minutes": 30.0,
+  "sessions_observed": 63,
+  "excluded_without_entry": 1,
+  "funnel": [
+    {
+      "step": "visit",
+      "sessions": 62,
+      "conversion_from_entry": 1.0,
+      "conversion_from_previous": null
+    },
+    {
+      "step": "cart",
+      "sessions": 50,
+      "conversion_from_entry": 0.8064516129032258,
+      "conversion_from_previous": 0.8064516129032258
+    },
+    {
+      "step": "checkout",
+      "sessions": 38,
+      "conversion_from_entry": 0.6129032258064516,
+      "conversion_from_previous": 0.76
+    },
+    {
+      "step": "purchase",
+      "sessions": 25,
+      "conversion_from_entry": 0.4032258064516129,
+      "conversion_from_previous": 0.6578947368421053
+    }
+  ],
+  "session_progress": [
+    {
+      "session_id": "S001",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S002",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S003",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S004",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S005",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S006",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S007",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S008",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S009",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S010",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S011",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S012",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S013",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S014",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S015",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S016",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S017",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S018",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S019",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S020",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S021",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S022",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S023",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S024",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S025",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S026",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S027",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S028",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S029",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S030",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S031",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S032",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S033",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S034",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S035",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S036",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S037",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S038",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S039",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S040",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S041",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S042",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S043",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S044",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S045",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S046",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S047",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S048",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S049",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S050",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S051",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S052",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S053",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S054",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S055",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "S056",
+      "steps_completed": 2,
+      "last_completed_step": "cart"
+    },
+    {
+      "session_id": "S057",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "S058",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S059",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    },
+    {
+      "session_id": "S060",
+      "steps_completed": 1,
+      "last_completed_step": "visit"
+    },
+    {
+      "session_id": "late",
+      "steps_completed": 3,
+      "last_completed_step": "checkout"
+    },
+    {
+      "session_id": "orphan",
+      "steps_completed": 0,
+      "last_completed_step": null
+    },
+    {
+      "session_id": "retry",
+      "steps_completed": 4,
+      "last_completed_step": "purchase"
+    }
+  ]
+}
