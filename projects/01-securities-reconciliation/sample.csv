@@ -1,0 +1,16 @@
+source,trade_id,amount
+bank,T001,100.00
+broker,T001,100.00
+client,T001,100.00
+bank,T002,200.00
+broker,T002,201.00
+client,T002,200.00
+bank,T003,300.00
+client,T003,300.00
+bank,T004,400.00
+broker,T004,400.00
+client,T004,400.00
+client,T004,400.00
+bank,T005,500.00
+broker,T005,500.01
+client,T005,500.00

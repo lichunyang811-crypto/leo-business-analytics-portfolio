@@ -1,0 +1,35 @@
+{
+  "trade_count": 5,
+  "matched": 2,
+  "exceptions": [
+    {
+      "trade_id": "T002",
+      "reasons": [
+        "amount_mismatch"
+      ],
+      "missing": [],
+      "duplicates": []
+    },
+    {
+      "trade_id": "T003",
+      "reasons": [
+        "missing_source"
+      ],
+      "missing": [
+        "broker"
+      ],
+      "duplicates": []
+    },
+    {
+      "trade_id": "T004",
+      "reasons": [
+        "duplicate_reference"
+      ],
+      "missing": [],
+      "duplicates": [
+        "client"
+      ]
+    }
+  ],
+  "match_rate": 0.4
+}
