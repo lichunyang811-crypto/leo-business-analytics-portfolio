@@ -1,0 +1,14 @@
+workflow,daily_cases,minutes_saved,build_hours,risk,approval_control
+workflow_01,74,3,158,2,1
+workflow_02,82,2,59,5,1
+workflow_03,16,3,82,4,1
+workflow_04,55,7,49,1,0
+workflow_05,29,8,122,1,1
+workflow_06,33,6,109,5,1
+workflow_07,70,3,93,3,1
+workflow_08,64,3,105,2,0
+workflow_09,67,3,102,3,1
+workflow_10,57,6,87,1,1
+workflow_11,47,4,147,1,1
+workflow_12,16,5,49,1,0
+workflow_13,51,5,29,2,1

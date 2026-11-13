@@ -1,0 +1,109 @@
+{
+  "ranked_workflows": [
+    {
+      "workflow": "workflow_13",
+      "daily_hours_saved": 4.25,
+      "payback_workdays": 6.823529411764706,
+      "control_gate_passed": true,
+      "recommendation": "pilot",
+      "priority_score": 0.07327586206896551
+    },
+    {
+      "workflow": "workflow_10",
+      "daily_hours_saved": 5.7,
+      "payback_workdays": 15.263157894736842,
+      "control_gate_passed": true,
+      "recommendation": "pilot",
+      "priority_score": 0.06551724137931035
+    },
+    {
+      "workflow": "workflow_05",
+      "daily_hours_saved": 3.8666666666666667,
+      "payback_workdays": 31.551724137931036,
+      "control_gate_passed": true,
+      "recommendation": "pilot",
+      "priority_score": 0.03169398907103825
+    },
+    {
+      "workflow": "workflow_11",
+      "daily_hours_saved": 3.1333333333333333,
+      "payback_workdays": 46.91489361702128,
+      "control_gate_passed": true,
+      "recommendation": "pilot",
+      "priority_score": 0.021315192743764172
+    },
+    {
+      "workflow": "workflow_07",
+      "daily_hours_saved": 3.5,
+      "payback_workdays": 26.571428571428573,
+      "control_gate_passed": true,
+      "recommendation": "pilot",
+      "priority_score": 0.012544802867383513
+    },
+    {
+      "workflow": "workflow_01",
+      "daily_hours_saved": 3.7,
+      "payback_workdays": 42.7027027027027,
+      "control_gate_passed": true,
+      "recommendation": "pilot",
+      "priority_score": 0.01170886075949367
+    },
+    {
+      "workflow": "workflow_09",
+      "daily_hours_saved": 3.35,
+      "payback_workdays": 30.44776119402985,
+      "control_gate_passed": true,
+      "recommendation": "pilot",
+      "priority_score": 0.010947712418300655
+    },
+    {
+      "workflow": "workflow_02",
+      "daily_hours_saved": 2.7333333333333334,
+      "payback_workdays": 21.585365853658537,
+      "control_gate_passed": false,
+      "recommendation": "hold",
+      "priority_score": 0
+    },
+    {
+      "workflow": "workflow_03",
+      "daily_hours_saved": 0.8,
+      "payback_workdays": 102.5,
+      "control_gate_passed": false,
+      "recommendation": "hold",
+      "priority_score": 0
+    },
+    {
+      "workflow": "workflow_04",
+      "daily_hours_saved": 6.416666666666667,
+      "payback_workdays": 7.636363636363636,
+      "control_gate_passed": false,
+      "recommendation": "hold",
+      "priority_score": 0
+    },
+    {
+      "workflow": "workflow_06",
+      "daily_hours_saved": 3.3,
+      "payback_workdays": 33.03030303030303,
+      "control_gate_passed": false,
+      "recommendation": "hold",
+      "priority_score": 0
+    },
+    {
+      "workflow": "workflow_08",
+      "daily_hours_saved": 3.2,
+      "payback_workdays": 32.8125,
+      "control_gate_passed": false,
+      "recommendation": "hold",
+      "priority_score": 0
+    },
+    {
+      "workflow": "workflow_12",
+      "daily_hours_saved": 1.3333333333333333,
+      "payback_workdays": 36.75,
+      "control_gate_passed": false,
+      "recommendation": "hold",
+      "priority_score": 0
+    }
+  ],
+  "assumption": "Estimates only; one-time build effort divided by daily gross time saved."
+}
