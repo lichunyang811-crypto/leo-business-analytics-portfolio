@@ -1,0 +1,89 @@
+{
+  "records": [
+    {
+      "record_id": "R1",
+      "email": "alex@example.invalid",
+      "phone": "15550100001",
+      "issues": []
+    },
+    {
+      "record_id": "R2",
+      "email": "alex@example.invalid",
+      "phone": "15550100001",
+      "issues": []
+    },
+    {
+      "record_id": "R3",
+      "email": "sam@example.invalid",
+      "phone": "15550100002",
+      "issues": []
+    },
+    {
+      "record_id": "R4",
+      "email": "other@example.invalid",
+      "phone": "15550100002",
+      "issues": []
+    },
+    {
+      "record_id": "R5",
+      "email": "",
+      "phone": "",
+      "issues": [
+        "missing_identifiers"
+      ]
+    },
+    {
+      "record_id": "R6",
+      "email": "sam@example.invalid",
+      "phone": "15550100003",
+      "issues": []
+    },
+    {
+      "record_id": "R7",
+      "email": "bad-address",
+      "phone": "",
+      "issues": [
+        "invalid_email"
+      ]
+    }
+  ],
+  "review_groups": [
+    {
+      "matched_on": "email",
+      "identifier": "alex@example.invalid",
+      "records": [
+        "R1",
+        "R2"
+      ],
+      "status": "duplicate_candidate"
+    },
+    {
+      "matched_on": "email",
+      "identifier": "sam@example.invalid",
+      "records": [
+        "R3",
+        "R6"
+      ],
+      "status": "conflicting_identifiers"
+    },
+    {
+      "matched_on": "phone",
+      "identifier": "15550100001",
+      "records": [
+        "R1",
+        "R2"
+      ],
+      "status": "duplicate_candidate"
+    },
+    {
+      "matched_on": "phone",
+      "identifier": "15550100002",
+      "records": [
+        "R3",
+        "R4"
+      ],
+      "status": "conflicting_identifiers"
+    }
+  ],
+  "automatic_merges": 0
+}

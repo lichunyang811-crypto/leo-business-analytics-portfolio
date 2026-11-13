@@ -1,0 +1,8 @@
+record_id,email,phone
+R1,alex@example.invalid,+1 (555) 010-0001
+R2, ALEX@example.invalid ,15550100001
+R3,sam@example.invalid,15550100002
+R4,other@example.invalid,15550100002
+R5,,
+R6,sam@example.invalid,15550100003
+R7,bad-address,
