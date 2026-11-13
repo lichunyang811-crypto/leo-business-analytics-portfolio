@@ -1,0 +1,30 @@
+{
+  "segments": [
+    {
+      "segment": "loyal",
+      "common_weight": 0.5,
+      "control_rate": 0.6,
+      "treatment_rate": 0.62,
+      "difference": 0.020000000000000018
+    },
+    {
+      "segment": "new",
+      "common_weight": 0.5,
+      "control_rate": 0.1,
+      "treatment_rate": 0.12,
+      "difference": 0.01999999999999999
+    }
+  ],
+  "pooled_rates": {
+    "control": 0.55,
+    "treatment": 0.17
+  },
+  "standardized_rates": {
+    "control": 0.35,
+    "treatment": 0.37
+  },
+  "pooled_difference": -0.38,
+  "standardized_difference": 0.020000000000000018,
+  "direction_reversal": true,
+  "interpretation": "Descriptive common-mix comparison, not an estimate of causal treatment effect."
+}

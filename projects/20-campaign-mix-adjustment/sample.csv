@@ -1,0 +1,5 @@
+segment,variant,users,conversions
+new,control,1000,100
+new,treatment,9000,1080
+loyal,control,9000,5400
+loyal,treatment,1000,620
