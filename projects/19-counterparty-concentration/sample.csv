@@ -1,0 +1,8 @@
+position_id,counterparty,parent_group,currency,exposure_cents
+P1,Alpha_Bank,Alpha,USD,400000
+P2,Alpha_Broker,Alpha,USD,200000
+P3,Beta,Beta,USD,250000
+P4,Gamma,Gamma,USD,150000
+P5,Delta,Delta,EUR,100000
+P6,Epsilon,Epsilon,EUR,100000
+P7,Dormant,Dormant,GBP,0

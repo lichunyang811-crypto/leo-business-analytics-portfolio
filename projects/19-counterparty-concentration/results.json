@@ -1,0 +1,65 @@
+{
+  "illustrative_review_threshold": 0.35,
+  "currency_profiles": [
+    {
+      "currency": "EUR",
+      "total_exposure_cents": 200000,
+      "hhi_fraction": 0.5,
+      "effective_group_count": 2.0,
+      "groups": [
+        {
+          "parent_group": "Delta",
+          "exposure_cents": 100000,
+          "share": 0.5,
+          "review_flag": true
+        },
+        {
+          "parent_group": "Epsilon",
+          "exposure_cents": 100000,
+          "share": 0.5,
+          "review_flag": true
+        }
+      ]
+    },
+    {
+      "currency": "GBP",
+      "total_exposure_cents": 0,
+      "hhi_fraction": null,
+      "effective_group_count": null,
+      "groups": [
+        {
+          "parent_group": "Dormant",
+          "exposure_cents": 0,
+          "share": null,
+          "review_flag": false
+        }
+      ]
+    },
+    {
+      "currency": "USD",
+      "total_exposure_cents": 1000000,
+      "hhi_fraction": 0.445,
+      "effective_group_count": 2.247191011235955,
+      "groups": [
+        {
+          "parent_group": "Alpha",
+          "exposure_cents": 600000,
+          "share": 0.6,
+          "review_flag": true
+        },
+        {
+          "parent_group": "Beta",
+          "exposure_cents": 250000,
+          "share": 0.25,
+          "review_flag": false
+        },
+        {
+          "parent_group": "Gamma",
+          "exposure_cents": 150000,
+          "share": 0.15,
+          "review_flag": false
+        }
+      ]
+    }
+  ]
+}
