@@ -1,0 +1,5 @@
+scenario,initial,monthly_contribution,annual_return,annual_fee,inflation,years
+conservative,1000,200,0.03,0.002,0.025,20
+illustrative_base,1000,200,0.06,0.002,0.025,20
+higher_fee,1000,200,0.06,0.015,0.025,20
+higher_contribution,1000,300,0.06,0.002,0.025,20

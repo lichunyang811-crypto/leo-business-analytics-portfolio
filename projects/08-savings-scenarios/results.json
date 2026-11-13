@@ -1,0 +1,505 @@
+{
+  "scenarios": [
+    {
+      "scenario": "conservative",
+      "annual_schedule": [
+        {
+          "year": 1,
+          "nominal_balance": 3458.52,
+          "real_balance": 3374.17,
+          "contributions_to_date": 3400.0
+        },
+        {
+          "year": 2,
+          "nominal_balance": 5985.73,
+          "real_balance": 5697.31,
+          "contributions_to_date": 5800.0
+        },
+        {
+          "year": 3,
+          "nominal_balance": 8583.56,
+          "real_balance": 7970.68,
+          "contributions_to_date": 8200.0
+        },
+        {
+          "year": 4,
+          "nominal_balance": 11253.96,
+          "real_balance": 10195.53,
+          "contributions_to_date": 10600.0
+        },
+        {
+          "year": 5,
+          "nominal_balance": 13998.98,
+          "real_balance": 12373.06,
+          "contributions_to_date": 13000.0
+        },
+        {
+          "year": 6,
+          "nominal_balance": 16820.69,
+          "real_balance": 14504.43,
+          "contributions_to_date": 15400.0
+        },
+        {
+          "year": 7,
+          "nominal_balance": 19721.24,
+          "real_balance": 16590.8,
+          "contributions_to_date": 17800.0
+        },
+        {
+          "year": 8,
+          "nominal_balance": 22702.83,
+          "real_balance": 18633.27,
+          "contributions_to_date": 20200.0
+        },
+        {
+          "year": 9,
+          "nominal_balance": 25767.73,
+          "real_balance": 20632.95,
+          "contributions_to_date": 22600.0
+        },
+        {
+          "year": 10,
+          "nominal_balance": 28918.26,
+          "real_balance": 22590.9,
+          "contributions_to_date": 25000.0
+        },
+        {
+          "year": 11,
+          "nominal_balance": 32156.82,
+          "real_balance": 24508.15,
+          "contributions_to_date": 27400.0
+        },
+        {
+          "year": 12,
+          "nominal_balance": 35485.86,
+          "real_balance": 26385.72,
+          "contributions_to_date": 29800.0
+        },
+        {
+          "year": 13,
+          "nominal_balance": 38907.92,
+          "real_balance": 28224.6,
+          "contributions_to_date": 32200.0
+        },
+        {
+          "year": 14,
+          "nominal_balance": 42425.59,
+          "real_balance": 30025.74,
+          "contributions_to_date": 34600.0
+        },
+        {
+          "year": 15,
+          "nominal_balance": 46041.54,
+          "real_balance": 31790.1,
+          "contributions_to_date": 37000.0
+        },
+        {
+          "year": 16,
+          "nominal_balance": 49758.52,
+          "real_balance": 33518.58,
+          "contributions_to_date": 39400.0
+        },
+        {
+          "year": 17,
+          "nominal_balance": 53579.36,
+          "real_balance": 35212.09,
+          "contributions_to_date": 41800.0
+        },
+        {
+          "year": 18,
+          "nominal_balance": 57506.95,
+          "real_balance": 36871.49,
+          "contributions_to_date": 44200.0
+        },
+        {
+          "year": 19,
+          "nominal_balance": 61544.27,
+          "real_balance": 38497.65,
+          "contributions_to_date": 46600.0
+        },
+        {
+          "year": 20,
+          "nominal_balance": 65694.4,
+          "real_balance": 40091.38,
+          "contributions_to_date": 49000.0
+        }
+      ]
+    },
+    {
+      "scenario": "illustrative_base",
+      "annual_schedule": [
+        {
+          "year": 1,
+          "nominal_balance": 3520.9,
+          "real_balance": 3435.03,
+          "contributions_to_date": 3400.0
+        },
+        {
+          "year": 2,
+          "nominal_balance": 6187.71,
+          "real_balance": 5889.55,
+          "contributions_to_date": 5800.0
+        },
+        {
+          "year": 3,
+          "nominal_balance": 9008.88,
+          "real_balance": 8365.64,
+          "contributions_to_date": 8200.0
+        },
+        {
+          "year": 4,
+          "nominal_balance": 11993.33,
+          "real_balance": 10865.37,
+          "contributions_to_date": 10600.0
+        },
+        {
+          "year": 5,
+          "nominal_balance": 15150.53,
+          "real_balance": 13390.86,
+          "contributions_to_date": 13000.0
+        },
+        {
+          "year": 6,
+          "nominal_balance": 18490.46,
+          "real_balance": 15944.27,
+          "contributions_to_date": 15400.0
+        },
+        {
+          "year": 7,
+          "nominal_balance": 22023.71,
+          "real_balance": 18527.78,
+          "contributions_to_date": 17800.0
+        },
+        {
+          "year": 8,
+          "nominal_balance": 25761.47,
+          "real_balance": 21143.63,
+          "contributions_to_date": 20200.0
+        },
+        {
+          "year": 9,
+          "nominal_balance": 29715.56,
+          "real_balance": 23794.09,
+          "contributions_to_date": 22600.0
+        },
+        {
+          "year": 10,
+          "nominal_balance": 33898.52,
+          "real_balance": 26481.47,
+          "contributions_to_date": 25000.0
+        },
+        {
+          "year": 11,
+          "nominal_balance": 38323.59,
+          "real_balance": 29208.12,
+          "contributions_to_date": 27400.0
+        },
+        {
+          "year": 12,
+          "nominal_balance": 43004.78,
+          "real_balance": 31976.45,
+          "contributions_to_date": 29800.0
+        },
+        {
+          "year": 13,
+          "nominal_balance": 47956.91,
+          "real_balance": 34788.92,
+          "contributions_to_date": 32200.0
+        },
+        {
+          "year": 14,
+          "nominal_balance": 53195.68,
+          "real_balance": 37648.03,
+          "contributions_to_date": 34600.0
+        },
+        {
+          "year": 15,
+          "nominal_balance": 58737.67,
+          "real_balance": 40556.34,
+          "contributions_to_date": 37000.0
+        },
+        {
+          "year": 16,
+          "nominal_balance": 64600.43,
+          "real_balance": 43516.46,
+          "contributions_to_date": 39400.0
+        },
+        {
+          "year": 17,
+          "nominal_balance": 70802.52,
+          "real_balance": 46531.07,
+          "contributions_to_date": 41800.0
+        },
+        {
+          "year": 18,
+          "nominal_balance": 77363.59,
+          "real_balance": 49602.9,
+          "contributions_to_date": 44200.0
+        },
+        {
+          "year": 19,
+          "nominal_balance": 84304.42,
+          "real_balance": 52734.75,
+          "contributions_to_date": 46600.0
+        },
+        {
+          "year": 20,
+          "nominal_balance": 91646.98,
+          "real_balance": 55929.49,
+          "contributions_to_date": 49000.0
+        }
+      ]
+    },
+    {
+      "scenario": "higher_fee",
+      "annual_schedule": [
+        {
+          "year": 1,
+          "nominal_balance": 3492.23,
+          "real_balance": 3407.06,
+          "contributions_to_date": 3400.0
+        },
+        {
+          "year": 2,
+          "nominal_balance": 6094.37,
+          "real_balance": 5800.71,
+          "contributions_to_date": 5800.0
+        },
+        {
+          "year": 3,
+          "nominal_balance": 8811.27,
+          "real_balance": 8182.14,
+          "contributions_to_date": 8200.0
+        },
+        {
+          "year": 4,
+          "nominal_balance": 11647.97,
+          "real_balance": 10552.49,
+          "contributions_to_date": 10600.0
+        },
+        {
+          "year": 5,
+          "nominal_balance": 14609.78,
+          "real_balance": 12912.92,
+          "contributions_to_date": 13000.0
+        },
+        {
+          "year": 6,
+          "nominal_balance": 17702.21,
+          "real_balance": 15264.56,
+          "contributions_to_date": 15400.0
+        },
+        {
+          "year": 7,
+          "nominal_balance": 20931.0,
+          "real_balance": 17608.53,
+          "contributions_to_date": 17800.0
+        },
+        {
+          "year": 8,
+          "nominal_balance": 24302.19,
+          "real_balance": 19945.94,
+          "contributions_to_date": 20200.0
+        },
+        {
+          "year": 9,
+          "nominal_balance": 27822.05,
+          "real_balance": 22277.91,
+          "contributions_to_date": 22600.0
+        },
+        {
+          "year": 10,
+          "nominal_balance": 31497.14,
+          "real_balance": 24605.51,
+          "contributions_to_date": 25000.0
+        },
+        {
+          "year": 11,
+          "nominal_balance": 35334.29,
+          "real_balance": 26929.85,
+          "contributions_to_date": 27400.0
+        },
+        {
+          "year": 12,
+          "nominal_balance": 39340.67,
+          "real_balance": 29251.98,
+          "contributions_to_date": 29800.0
+        },
+        {
+          "year": 13,
+          "nominal_balance": 43523.72,
+          "real_balance": 31573.0,
+          "contributions_to_date": 32200.0
+        },
+        {
+          "year": 14,
+          "nominal_balance": 47891.25,
+          "real_balance": 33893.94,
+          "contributions_to_date": 34600.0
+        },
+        {
+          "year": 15,
+          "nominal_balance": 52451.39,
+          "real_balance": 36215.88,
+          "contributions_to_date": 37000.0
+        },
+        {
+          "year": 16,
+          "nominal_balance": 57212.63,
+          "real_balance": 38539.85,
+          "contributions_to_date": 39400.0
+        },
+        {
+          "year": 17,
+          "nominal_balance": 62183.83,
+          "real_balance": 40866.91,
+          "contributions_to_date": 41800.0
+        },
+        {
+          "year": 18,
+          "nominal_balance": 67374.27,
+          "real_balance": 43198.09,
+          "contributions_to_date": 44200.0
+        },
+        {
+          "year": 19,
+          "nominal_balance": 72793.61,
+          "real_balance": 45534.42,
+          "contributions_to_date": 46600.0
+        },
+        {
+          "year": 20,
+          "nominal_balance": 78451.94,
+          "real_balance": 47876.94,
+          "contributions_to_date": 49000.0
+        }
+      ]
+    },
+    {
+      "scenario": "higher_contribution",
+      "annual_schedule": [
+        {
+          "year": 1,
+          "nominal_balance": 4752.41,
+          "real_balance": 4636.5,
+          "contributions_to_date": 4600.0
+        },
+        {
+          "year": 2,
+          "nominal_balance": 8722.01,
+          "real_balance": 8301.74,
+          "contributions_to_date": 8200.0
+        },
+        {
+          "year": 3,
+          "nominal_balance": 12921.38,
+          "real_balance": 11998.78,
+          "contributions_to_date": 11800.0
+        },
+        {
+          "year": 4,
+          "nominal_balance": 17363.8,
+          "real_balance": 15730.74,
+          "contributions_to_date": 15400.0
+        },
+        {
+          "year": 5,
+          "nominal_balance": 22063.34,
+          "real_balance": 19500.78,
+          "contributions_to_date": 19000.0
+        },
+        {
+          "year": 6,
+          "nominal_balance": 27034.9,
+          "real_balance": 23312.11,
+          "contributions_to_date": 22600.0
+        },
+        {
+          "year": 7,
+          "nominal_balance": 32294.21,
+          "real_balance": 27168.0,
+          "contributions_to_date": 26200.0
+        },
+        {
+          "year": 8,
+          "nominal_balance": 37857.94,
+          "real_balance": 31071.77,
+          "contributions_to_date": 29800.0
+        },
+        {
+          "year": 9,
+          "nominal_balance": 43743.68,
+          "real_balance": 35026.81,
+          "contributions_to_date": 33400.0
+        },
+        {
+          "year": 10,
+          "nominal_balance": 49970.1,
+          "real_balance": 39036.56,
+          "contributions_to_date": 37000.0
+        },
+        {
+          "year": 11,
+          "nominal_balance": 56556.9,
+          "real_balance": 43104.55,
+          "contributions_to_date": 40600.0
+        },
+        {
+          "year": 12,
+          "nominal_balance": 63524.95,
+          "real_balance": 47234.35,
+          "contributions_to_date": 44200.0
+        },
+        {
+          "year": 13,
+          "nominal_balance": 70896.3,
+          "real_balance": 51429.62,
+          "contributions_to_date": 47800.0
+        },
+        {
+          "year": 14,
+          "nominal_balance": 78694.31,
+          "real_balance": 55694.11,
+          "contributions_to_date": 51400.0
+        },
+        {
+          "year": 15,
+          "nominal_balance": 86943.67,
+          "real_balance": 60031.61,
+          "contributions_to_date": 55000.0
+        },
+        {
+          "year": 16,
+          "nominal_balance": 95670.5,
+          "real_balance": 64446.04,
+          "contributions_to_date": 58600.0
+        },
+        {
+          "year": 17,
+          "nominal_balance": 104902.44,
+          "real_balance": 68941.37,
+          "contributions_to_date": 62200.0
+        },
+        {
+          "year": 18,
+          "nominal_balance": 114668.73,
+          "real_balance": 73521.68,
+          "contributions_to_date": 65800.0
+        },
+        {
+          "year": 19,
+          "nominal_balance": 125000.29,
+          "real_balance": 78191.14,
+          "contributions_to_date": 69400.0
+        },
+        {
+          "year": 20,
+          "nominal_balance": 135929.84,
+          "real_balance": 82954.03,
+          "contributions_to_date": 73000.0
+        }
+      ]
+    }
+  ],
+  "notice": "Hypothetical constant-return education model; not a forecast or investment advice."
+}
