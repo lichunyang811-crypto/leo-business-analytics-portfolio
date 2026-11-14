@@ -1,0 +1,26 @@
+[
+  {
+    "member_id": "A",
+    "latest_consent": "opt_in",
+    "last_send": "2026-10-25",
+    "decision": "cooldown"
+  },
+  {
+    "member_id": "B",
+    "latest_consent": "opt_in",
+    "last_send": "2026-10-24",
+    "decision": "eligible"
+  },
+  {
+    "member_id": "C",
+    "latest_consent": "opt_out",
+    "last_send": null,
+    "decision": "opted_out"
+  },
+  {
+    "member_id": "D",
+    "latest_consent": null,
+    "last_send": "2026-10-15",
+    "decision": "no_consent"
+  }
+]

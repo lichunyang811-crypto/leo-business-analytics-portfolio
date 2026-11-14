@@ -1,0 +1,9 @@
+event_id,member_id,event_day,kind
+E1,A,2026-10-01,opt_in
+E2,A,2026-10-25,send
+E3,B,2026-10-01,opt_in
+E4,B,2026-10-24,send
+E5,C,2026-10-30,opt_in
+E6,C,2026-10-30,opt_out
+E7,D,2026-10-15,send
+E8,C,2026-11-01,opt_in
