@@ -1,0 +1,12 @@
+[
+  {
+    "product_a": "cap",
+    "product_b": "tee",
+    "together": 2,
+    "basket_count": 6,
+    "support": 0.3333333333333333,
+    "confidence_a_to_b": 1.0,
+    "confidence_b_to_a": 0.6666666666666666,
+    "lift": 2.0
+  }
+]
