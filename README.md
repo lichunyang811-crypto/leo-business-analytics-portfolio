@@ -1,6 +1,6 @@
 # Leo Li · Business Analytics Portfolio
 
-Twenty runnable case studies connecting securities operations, retail CRM, financial education, basketball, and golf. Built with Python's standard library, with SQLite examples for operational KPIs, retention cohorts, revenue bridges, and campaign mix adjustment.
+Twenty-three runnable case studies connecting securities operations, retail CRM, financial education, basketball, and golf. Built with Python's standard library, with SQLite examples for operational KPIs, retention cohorts, revenue bridges, and campaign mix adjustment.
 
 These are independent portfolio prototypes built with synthetic data. They are not past employer systems, production deployments, or evidence of realized business impact. The code is intended to be inspected, tested, and extended.
 
@@ -37,6 +37,9 @@ Requires Python 3.10 or newer. No pip installation, network connection, credenti
 | [UAT Requirements Traceability](projects/18-uat-release-readiness/README.md) | Which unmet requirements block a release recommendation? |
 | [Counterparty Exposure Concentration](projects/19-counterparty-concentration/README.md) | How concentrated are gross exposures after related entities are grouped? |
 | [Campaign Mix and Simpson Reversal](projects/20-campaign-mix-adjustment/README.md) | Does a campaign conclusion reverse when both variants use the same customer mix? |
+| [Suspense Account Aging](projects/21-suspense-account-aging/README.md) | Which unmatched cash postings still need investigation at month end? |
+| [CRM Contact Eligibility Audit](projects/22-crm-contact-eligibility/README.md) | Which members meet a campaign’s consent and seven-day contact rules? |
+| [Retail Basket Affinity](projects/23-retail-basket-affinity/README.md) | Which product pairs occur together more often than their individual frequencies imply? |
 
 ## Featured case study
 
@@ -50,11 +53,11 @@ The synthetic campaign looks worse in aggregate but better within each segment. 
 
 Start with **Securities Reconciliation** to inspect exception handling and monetary precision. Follow with **Campaign A/B Test Readout** for statistical assumptions and guardrails, then **Retention Cohorts** for denominator discipline and SQL/Python parity. Basketball and golf add personal context and demonstrate transferring analytical methods to another domain.
 
-Every folder includes a documented input schema, synthetic CSV fixture, executable analysis, and reproducible JSON output. Four folders also include SQLite queries. The tests cover business boundaries, duplicate handling, sparse experiments, date boundaries, financial arithmetic, SQL parity, and CLI reproducibility.
+Every folder includes a documented input schema, synthetic CSV fixture, executable analysis, and reproducible JSON output. Seven folders include SQLite queries. The tests cover business boundaries, duplicate handling, sparse experiments, date boundaries, financial arithmetic, SQL parity, and CLI reproducibility.
 
 ## Repository layout
 
-- `projects/`: twenty self-contained case studies.
+- `projects/`: twenty-three self-contained case studies.
 - `tests/`: business-rule and end-to-end tests.
 - `run_all.py`: regenerate all bundled results.
 - `catalog.json`: machine-readable project index.
@@ -75,7 +78,7 @@ The figures read committed `results.json` files. Run `python3 run_all.py` first 
 
 ## Evidence and limitations
 
-The expanded suite contains 54 test methods, including integration checks over all 20 projects. Local validation used Python 3.13.6. GitHub Actions runs the suite on Python 3.10 and 3.13; see the repository Actions tab for the latest status. Floating-point comparisons allow only a tight tolerance for platform math-library rounding differences. Bundled data is intentionally small enough to inspect; it is not a performance benchmark. Input validation is suitable for these prototypes, not a full production ingestion or security boundary. Do not load sensitive records into a public repository.
+The expanded suite contains 57 test methods, including integration checks over all 23 projects. Local validation used Python 3.13.6. GitHub Actions runs the suite on Python 3.10 and 3.13; see the repository Actions tab for the latest status. Floating-point comparisons allow only a tight tolerance for platform math-library rounding differences. Bundled data is intentionally small enough to inspect; it is not a performance benchmark. Input validation is suitable for these prototypes, not a full production ingestion or security boundary. Do not load sensitive records into a public repository.
 
 ## Development priorities
 

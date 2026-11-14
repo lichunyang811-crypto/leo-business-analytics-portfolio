@@ -98,5 +98,20 @@
     "slug": "20-campaign-mix-adjustment",
     "title": "Campaign Mix and Simpson Reversal",
     "question": "Does a campaign conclusion reverse when both variants use the same customer mix?"
+  },
+  {
+    "slug": "21-suspense-account-aging",
+    "title": "Suspense Account Aging",
+    "question": "Which unmatched cash postings still need investigation at month end?"
+  },
+  {
+    "slug": "22-crm-contact-eligibility",
+    "title": "CRM Contact Eligibility Audit",
+    "question": "Which members meet a campaign\u2019s consent and seven-day contact rules?"
+  },
+  {
+    "slug": "23-retail-basket-affinity",
+    "title": "Retail Basket Affinity",
+    "question": "Which product pairs occur together more often than their individual frequencies imply?"
   }
 ]
