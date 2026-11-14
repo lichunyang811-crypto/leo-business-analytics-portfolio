@@ -1,0 +1,7 @@
+posting_id,case_id,posted_on,direction,amount_cents
+P1,A,2026-10-01,debit,5000
+P2,A,2026-10-08,credit,3000
+P3,B,2026-10-24,credit,1000
+P4,C,2026-10-15,debit,700
+P5,C,2026-10-16,credit,700
+P6,A,2026-11-01,credit,2000
